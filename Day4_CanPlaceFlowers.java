@@ -1,11 +1,18 @@
 package LeetCode75;
 
+import java.util.Scanner;
+
 public class Day4_CanPlaceFlowers {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-int[]flowerbed= {0,1,0};
-System.out.println(canPlaceFlowers(flowerbed, 1));
+
+		Scanner sc=new Scanner(System.in);
+		int[]flowerbed= new int[sc.nextInt()];
+		for(int i=0;i<flowerbed.length;i++)
+		{
+			flowerbed[i]=sc.nextInt();
+		}
+System.out.println(canPlaceFlowers(flowerbed, sc.nextInt()));
 	}
 	 public static boolean canPlaceFlowers(int[] flowerbed, int n) {
 	        int l = flowerbed.length;
