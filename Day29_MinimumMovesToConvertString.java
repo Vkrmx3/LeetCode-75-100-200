@@ -3,7 +3,7 @@ package LeetCode75;
 public class Day29_MinimumMovesToConvertString {
 
 	public static void main(String[] args) {
-		System.out.println(minimumMoves("XX000XXXX"));
+		System.out.println(minimumMoves(new Scanner(System.in).next()));
 	}
 	public static int minimumMoves(String s) {
         int count=0;
