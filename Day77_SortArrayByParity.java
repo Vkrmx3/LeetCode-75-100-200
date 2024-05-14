@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Day77_SortArrayByParity {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[]nums= {3,1,2,4};
 		System.out.println(Arrays.toString(sortArrayByParity(nums)));
 	}
