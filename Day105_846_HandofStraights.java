@@ -12,11 +12,9 @@ public static boolean isNStraightHand(int[] hand, int groupSize) {
 			return false;
 		Arrays.sort(hand);
 		for(int i=0;i<hand.length;i++)
-		{
 			if(hand[i]>=0)
 				if(!succesor(hand,i,groupSize))
 					return false;
-		}
 		return true;
 	}
 	public static boolean succesor(int[]hand, int i, int groupSize)
