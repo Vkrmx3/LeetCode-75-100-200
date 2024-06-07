@@ -14,10 +14,8 @@ public static boolean isNStraightHand(int[] hand, int groupSize) {
 		for(int i=0;i<hand.length;i++)
 		{
 			if(hand[i]>=0)
-			{
 				if(!succesor(hand,i,groupSize))
 					return false;
-			}
 		}
 		return true;
 	}
