@@ -14,7 +14,6 @@ public class Day106_2259_RemoveDigitFromNumbertoMaximizeResult
                 String temp=number.substring(0,i)+number.substring(i+1,number.length());
                 if(temp.compareTo(result)>0)
                     result=temp;
-                
             }
         }
         return result;
