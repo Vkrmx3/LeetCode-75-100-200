@@ -4,7 +4,7 @@ public class Day106_2259_RemoveDigitFromNumbertoMaximizeResult
     { 
       String number="1231", digit="1";
         System.out.println(removeDigit(number,digit));
-    } 
+    }  
     public static String removeDigit(String number, char digit) {
         String result="";
         for(int i=0;i<number.length();i++)
