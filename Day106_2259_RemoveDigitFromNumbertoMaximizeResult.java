@@ -1,5 +1,5 @@
 public class Day106_2259_RemoveDigitFromNumbertoMaximizeResult
-{
+{ 
     public static void main(String[]args)
     { 
       String number="1231", digit="1";
