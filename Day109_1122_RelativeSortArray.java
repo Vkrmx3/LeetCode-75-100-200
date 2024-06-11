@@ -24,6 +24,5 @@ public static int[] relativeSortArray(int[] arr1, int[] arr2) {
         for(int i=0;pos<result.length && i<arr1.length;i++)
             if(arr1[i]>-1)
                 result[pos++]=arr1[i];
-        
         return result;
     }
