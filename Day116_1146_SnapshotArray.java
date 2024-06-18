@@ -15,7 +15,6 @@ class SnapshotArray {
         list.add(new HashMap());
         return list.size() - 2;
     }
-    
     public int get(int index, int snap_id) {
         for (int snap = snap_id; snap >= 0; snap--) {
             if (list.get(snap).containsKey(index))
