@@ -5,7 +5,8 @@ public class Day117_33_SearchinRotatedSortedArray
       int[]nums={78,88,89,91,93,96,97,99,2444,1,2,3,4,5,6,7,8,9,34};
       System.out.println(search(nums, 45));
     }
-    public static int search(int[] nums, int target) {
+    public static int search(int[] nums, int target) 
+    {
         int start=0, end=nums.length-1;
 	        while(start<=end)
 	        {
