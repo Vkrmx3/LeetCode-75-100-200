@@ -17,12 +17,10 @@ public class Day117_33_SearchinRotatedSortedArray
 	        		return mid;
 	        		}
 	        	else if(nums[start]<=nums[mid]) 
-	        	{
 	        		if(nums[start]<=target && nums[mid]>target )
 	        			end=mid-1;
 	        		else
 	        			start=mid+1;
-	        	}
 	        	else
 	        	{
 	        		if(nums[mid]<=target && nums[end]>=target )
