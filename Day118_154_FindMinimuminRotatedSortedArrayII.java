@@ -14,7 +14,7 @@ public class Day118_154_FindMinimuminRotatedSortedArrayII
             if(nums[start]==nums[mid] && nums[mid]==nums[end])
             {
                 start++;
-                end--;
+                end--; 
             }
             else if(nums[start]<=nums[mid])
             {
