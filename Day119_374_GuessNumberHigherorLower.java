@@ -19,8 +19,7 @@ public class Solution extends GuessGame {
         	else if(pick==-1)
         		{
                     end=n;
-        			n=start+(end-start)/2;
-        			
+        			n=start+(end-start)/2;	
         		}
         	else
         	{
