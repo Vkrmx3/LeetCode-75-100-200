@@ -22,7 +22,7 @@ public class Solution extends GuessGame {
         			n=start+(end-start)/2;	
         		}
         	else
-        	{
+        	{ 
         		start=n;
         		n=start+(end-start)/2;
         	}
