@@ -12,7 +12,7 @@ public class Solution extends GuessGame {
     public int guessNumber(int n) {
         int start=n%2==0?0:1, end=n;
         while(n>0)
-        {
+        { 
         	int pick=guess(n);
         	if(pick==0)
         		return n;
