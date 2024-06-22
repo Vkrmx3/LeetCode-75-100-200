@@ -5,7 +5,7 @@ class Solution {
         for(int i=0; i<arr.length-2; i++)
         { 
             if(arr[i].equals(first) && arr[i+1].equals(second))
-                list.add(arr[i+2]);
+                list.add(arr[i+2]); 
         }
         return list.toArray(new String[0]);
     }
