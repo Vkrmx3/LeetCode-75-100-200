@@ -8,5 +8,5 @@ class Solution {
                 list.add(arr[i+2]); 
         }
         return list.toArray(new String[0]);
-    }
+    } 
 }
