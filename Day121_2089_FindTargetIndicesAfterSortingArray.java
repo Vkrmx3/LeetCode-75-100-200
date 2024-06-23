@@ -1,6 +1,5 @@
 class Solution {
     public List<Integer> targetIndices(int[] nums, int target) {
-
         int count = 0, lessthan = 0;
         for (int ele : nums) {
             if (ele == target)
