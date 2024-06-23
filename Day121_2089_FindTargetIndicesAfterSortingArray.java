@@ -6,7 +6,7 @@ class Solution {
             if (ele == target)
                 count++;
             else if (ele < target)
-                lessthan++;
+                lessthan++; 
         }
         List<Integer> list = new ArrayList();
         while (count > 0) {
