@@ -4,7 +4,7 @@ class Solution {
         for (int ele : nums) {
             if (ele == target)
                 count++;
-            else if (ele < target)
+            else if (ele < target) 
                 lessthan++; 
         }
         List<Integer> list = new ArrayList();
