@@ -3,7 +3,6 @@ class Solution {
         for(int num : arr)
             if(num <=k)k++;
             else break;
-        }
         return k;
     }
 }
