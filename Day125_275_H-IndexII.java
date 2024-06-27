@@ -7,7 +7,7 @@ class Solution {
             if(len-mid<=citations[mid])
                {
                 result=len-mid; 
-                    end=mid-1;
+                    end=mid-1; 
                } 
             else
                 start=mid+1; 
