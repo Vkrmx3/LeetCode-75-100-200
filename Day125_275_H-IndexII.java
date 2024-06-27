@@ -6,7 +6,7 @@ class Solution {
             int mid=start+(end-start)/2;
             if(len-mid<=citations[mid])
                {
-                result=len-mid;
+                result=len-mid; 
                     end=mid-1;
                } 
             else
