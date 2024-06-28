@@ -8,7 +8,7 @@ class Solution {
                 mid--;
             if(nums[mid]!=nums[mid+1])
                 end=mid;
-            else
+            else 
                 start=mid+2;
         }
         return nums[start];
