@@ -3,7 +3,7 @@ class Solution {
          double count=0;
         for(int i=0; i<s.length(); i++)
             if(s.charAt(i)==letter)
-                count++;
+                count++; 
         return (int)((count/s.length())*100);
     }
 }
