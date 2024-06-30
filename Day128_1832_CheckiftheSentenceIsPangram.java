@@ -5,6 +5,6 @@ class Solution {
         Set<Character>set=new HashSet(); 
         for(char c: sentence.toCharArray())
             set.add(c);
-        return set.size()==26;
+        return set.size()==26; 
     }
 }
