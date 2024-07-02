@@ -7,7 +7,7 @@ class Solution {
         {
             if(ele<min)
             {
-                result=min;
+                result=min; 
                 min=ele;
             }
             else if(ele<result)
