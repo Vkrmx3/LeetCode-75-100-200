@@ -3,7 +3,7 @@ class Solution {
         int index=0,ones=0;
         for(int i=0;i<mat.length;i++)
         {
-            int count=0;
+            int count=0; 
             for(int j=0; j<mat[i].length;j++)
             {
                 if(mat[i][j]==1)
