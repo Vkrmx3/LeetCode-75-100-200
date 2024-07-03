@@ -8,7 +8,7 @@ class Solution {
             {
                 if(mat[i][j]==1)
                     count++;
-            }
+            } 
             if(count>ones)
             {
                 ones=count;
