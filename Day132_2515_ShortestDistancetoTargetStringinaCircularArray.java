@@ -4,7 +4,7 @@ class Solution {
        while(leftcount<=n/2)
        {
         if(words[left].equals(target))
-            return leftcount;
+            return leftcount; 
         if(words[right].equals(target)) 
             return rightcount; 
             left=((left-1)+n)%n;
