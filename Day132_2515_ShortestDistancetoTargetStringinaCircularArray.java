@@ -6,7 +6,7 @@ class Solution {
         if(words[left].equals(target))
             return leftcount;
         if(words[right].equals(target))
-            return rightcount;
+            return rightcount; 
             left=((left-1)+n)%n;
             right=(right+1)%n;
             leftcount++;
