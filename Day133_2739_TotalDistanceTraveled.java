@@ -7,7 +7,7 @@ class Solution {
             result+=5*10;
             if(additionalTank>0)
             {
-                mainTank++;
+                mainTank++; 
                 additionalTank--;
             }
        }
