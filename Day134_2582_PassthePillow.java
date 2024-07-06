@@ -11,7 +11,7 @@ class Solution {
         }
         if(index==1)
             index+=time;
-        else
+        else 
             index-=time;
         return index;
     }
