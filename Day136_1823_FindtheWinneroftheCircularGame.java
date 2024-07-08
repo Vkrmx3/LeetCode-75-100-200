@@ -6,7 +6,7 @@ class Solution {
         int current=0;
         while(list.size()>1)
         {
-            int next= (current+k-1)%list.size();
+            int next= (current+k-1)%list.size(); 
             list.remove(next);
             current=next;
         }
