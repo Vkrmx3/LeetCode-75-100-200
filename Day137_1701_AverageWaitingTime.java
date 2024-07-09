@@ -6,7 +6,7 @@ class Solution {
         {
             chef=Math.max(chef, customers[i][0])+ customers[i][1];
             avg+= chef-customers[i][0];
-        }
+        } 
     return avg/customers.length;
     }
 }
