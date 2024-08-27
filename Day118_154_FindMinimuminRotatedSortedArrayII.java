@@ -13,7 +13,7 @@ public class Day118_154_FindMinimuminRotatedSortedArrayII
             min=Math.min(min, nums[mid]);
             if(nums[start]==nums[mid] && nums[mid]==nums[end])
             {
-                start++;
+                start
                 end--; 
             }
             else if(nums[start]<=nums[mid])
