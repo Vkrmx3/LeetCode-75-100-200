@@ -7,7 +7,7 @@ public class Day118_154_FindMinimuminRotatedSortedArrayII
     }
     public static int findMin(int[] nums) {
         int start=0, end=nums.length-1, min=Integer.MAX_VALUE;
-        while(start<=end)
+        while(start<=end)   
         {
             int mid=start+(end-start)/2;
             min=Math.min(min, nums[mid]);
