@@ -12,7 +12,7 @@ class Solution {
                 count++;
                 if(count==set.size()-1)
                     return ele;
-            }
+            } 
         }
         return -1;
     }
